@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Give execute permissions to the script
+chmod +x ./deploy.sh
+
 # Install PHP dependencies
 composer install --no-dev --optimize-autoloader
 
